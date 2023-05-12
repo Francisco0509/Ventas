@@ -1,12 +1,12 @@
---CREATE DATABASE DBVentas
+--CREATE DATABASE DBVenta
 
-USE DBVentas
+USE DBVenta
 GO
 
 CREATE TABLE Rol
 (
 	idRol INT PRIMARY KEY IDENTITY(1,1),
-	rol VARCHAR(50),
+	nombre VARCHAR(50),
 	fechaRegistro DATETIME DEFAULT GETDATE(),
 	usuarioRegistro INT,
 	fechaModificacion DATETIME,
@@ -18,7 +18,7 @@ GO
 CREATE TABLE Menu
 (
 	idMenu INT PRIMARY KEY IDENTITY(1,1),
-	menu NVARCHAR(50),
+	nombre NVARCHAR(50),
 	icono NVARCHAR(50),
 	urlMenu NVARCHAR(50)
 )
@@ -53,7 +53,7 @@ GO
 CREATE TABLE Categoria
 (
 	idCategoria INT PRIMARY KEY IDENTITY(1,1),
-	categoria NVARCHAR(50),
+	nombre NVARCHAR(50),
 	esActivo BIT DEFAULT 1,
 	fechaRegistro DATETIME DEFAULT GETDATE(),
 	usuarioRegistro INT,
@@ -66,7 +66,7 @@ GO
 CREATE TABLE Producto
 (
 	idProducto INT PRIMARY KEY IDENTITY(1,1),
-	producto NVARCHAR(100),
+	nombre NVARCHAR(100),
 	idcategoria INT REFERENCES Categoria(idCategoria),
 	stock INT,
 	precio MONEY,
@@ -119,12 +119,10 @@ GO
 
 --Ingresar Roles
 SELECT * FROM Rol
-INSERT INTO Rol(rol,usuarioRegistro)
-VALUES('Administrador',1)
-INSERT INTO Rol(rol,usuarioRegistro)
-VALUES('Empleado',1)
-INSERT INTO Rol(rol,usuarioRegistro)
-VALUES('Supervisor',1)
+INSERT INTO Rol(nombre,usuarioRegistro)
+VALUES('Administrador',1),
+('Empleado',1),
+('Supervisor',1)
 
 --Ingresar Usuario
 SELECT * FROM Usuario
@@ -133,7 +131,7 @@ VALUES('Desarrollo','desarrollo@gmail.com',1,'12345',1)
 
 --Ingresar Categoría
 SELECT * FROM Categoria
-INSERT INTO Categoria(categoria,usuarioRegistro)
+INSERT INTO Categoria(nombre,usuarioRegistro)
 VALUES('Laptops',1),
 ('Monitores',1),
 ('Teclados',1),
@@ -143,7 +141,7 @@ VALUES('Laptops',1),
 
 --Insertar Producto
 SELECT * FROM Producto
-INSERT INTO Producto(producto,idCategoria,stock,precio,usuarioRegistro) VALUES
+INSERT INTO Producto(nombre,idCategoria,stock,precio,usuarioRegistro) VALUES
 ('Laptop Samsung book pro',1,20,2500,1),
 ('Laptop Lenovo Idea pad',1,30,2200,1),
 ('Laptop Asus Zenbook duo',1,30,2100,1),
@@ -163,7 +161,7 @@ INSERT INTO Producto(producto,idCategoria,stock,precio,usuarioRegistro) VALUES
 
 --Insertar opciones Menú
 SELECT * FROM Menu
-INSERT INTO Menu(menu,icono,urlMenu) VALUES
+INSERT INTO Menu(nombre,icono,urlMenu) VALUES
 ('DashBoard','dashboard','/pages/dashboard'),
 ('Usuarios','group','/pages/usuarios'),
 ('Productos','collections_bookmark','/pages/productos'),
