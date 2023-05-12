@@ -12,3 +12,6 @@ C:\Users\francisco.ruiz\Documents\Francisco\Own\Ventas\APISistemaVenta\SistemaVe
 C:\Users\francisco.ruiz\Documents\Francisco\Own\Ventas\APISistemaVenta\SistemaVenta.DAL\obj\Debug\net7.0\SistemaVenta.DAL.pdb
 C:\Users\francisco.ruiz\Documents\Francisco\Own\Ventas\APISistemaVenta\SistemaVenta.DAL\obj\Debug\net7.0\SistemaVenta.DAL.genruntimeconfig.cache
 C:\Users\francisco.ruiz\Documents\Francisco\Own\Ventas\APISistemaVenta\SistemaVenta.DAL\obj\Debug\net7.0\ref\SistemaVenta.DAL.dll
+C:\Users\francisco.ruiz\Documents\Francisco\Own\Ventas\APISistemaVenta\SistemaVenta.DAL\bin\Debug\net7.0\SistemaVenta.Model.dll
+C:\Users\francisco.ruiz\Documents\Francisco\Own\Ventas\APISistemaVenta\SistemaVenta.DAL\bin\Debug\net7.0\SistemaVenta.Model.pdb
+C:\Users\francisco.ruiz\Documents\Francisco\Own\Ventas\APISistemaVenta\SistemaVenta.DAL\obj\Debug\net7.0\SistemaVenta.DAL.csproj.CopyComplete

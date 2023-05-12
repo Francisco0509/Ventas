@@ -1,17 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
-using SistemaVenta.Model;
 
-namespace SistemaVenta.DAL.DBContext;
+namespace SistemaVenta.Model;
 
-public partial class DbventasContext : DbContext
+public partial class DbventaContext : DbContext
 {
-    public DbventasContext()
+    public DbventaContext()
     {
     }
 
-    public DbventasContext(DbContextOptions<DbventasContext> options)
+    public DbventaContext(DbContextOptions<DbventaContext> options)
         : base(options)
     {
     }
@@ -34,20 +33,15 @@ public partial class DbventasContext : DbContext
 
     public virtual DbSet<Venta> Venta { get; set; }
 
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=localhost;Database=DBVentas;User Id=sa;Password=515t3m@5;TrustServerCertificate=True");
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) { }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Categoria>(entity =>
         {
-            entity.HasKey(e => e.IdCategoria).HasName("PK__Categori__8A3D240CD6018B04");
+            entity.HasKey(e => e.IdCategoria).HasName("PK__Categori__8A3D240C294F4FB9");
 
             entity.Property(e => e.IdCategoria).HasColumnName("idCategoria");
-            entity.Property(e => e.Categoria)
-                .HasMaxLength(50)
-                .HasColumnName("categoria");
             entity.Property(e => e.EsActivo)
                 .HasDefaultValueSql("((1))")
                 .HasColumnName("esActivo");
@@ -58,13 +52,16 @@ public partial class DbventasContext : DbContext
                 .HasDefaultValueSql("(getdate())")
                 .HasColumnType("datetime")
                 .HasColumnName("fechaRegistro");
+            entity.Property(e => e.Nombre)
+                .HasMaxLength(50)
+                .HasColumnName("nombre");
             entity.Property(e => e.UsuarioModificacion).HasColumnName("usuarioModificacion");
             entity.Property(e => e.UsuarioRegistro).HasColumnName("usuarioRegistro");
         });
 
         modelBuilder.Entity<DetalleVenta>(entity =>
         {
-            entity.HasKey(e => e.IdDetalleVenta).HasName("PK__DetalleV__BFE2843F964E374B");
+            entity.HasKey(e => e.IdDetalleVenta).HasName("PK__DetalleV__BFE2843FE93670E3");
 
             entity.Property(e => e.IdDetalleVenta).HasColumnName("idDetalleVenta");
             entity.Property(e => e.Cantidad).HasColumnName("cantidad");
@@ -88,7 +85,7 @@ public partial class DbventasContext : DbContext
 
         modelBuilder.Entity<Documento>(entity =>
         {
-            entity.HasKey(e => e.IdDocumento).HasName("PK__Document__572A36FCF4208D80");
+            entity.HasKey(e => e.IdDocumento).HasName("PK__Document__572A36FC8A1C921A");
 
             entity.ToTable("Documento");
 
@@ -107,7 +104,7 @@ public partial class DbventasContext : DbContext
 
         modelBuilder.Entity<Menu>(entity =>
         {
-            entity.HasKey(e => e.IdMenu).HasName("PK__Menu__C26AF483F610731B");
+            entity.HasKey(e => e.IdMenu).HasName("PK__Menu__C26AF4832418D89A");
 
             entity.ToTable("Menu");
 
@@ -115,9 +112,9 @@ public partial class DbventasContext : DbContext
             entity.Property(e => e.Icono)
                 .HasMaxLength(50)
                 .HasColumnName("icono");
-            entity.Property(e => e.Menu1)
+            entity.Property(e => e.Nombre)
                 .HasMaxLength(50)
-                .HasColumnName("menu");
+                .HasColumnName("nombre");
             entity.Property(e => e.UrlMenu)
                 .HasMaxLength(50)
                 .HasColumnName("urlMenu");
@@ -125,7 +122,7 @@ public partial class DbventasContext : DbContext
 
         modelBuilder.Entity<MenuRol>(entity =>
         {
-            entity.HasKey(e => e.IdMenuRol).HasName("PK__MenuRol__9D6D61A451092629");
+            entity.HasKey(e => e.IdMenuRol).HasName("PK__MenuRol__9D6D61A4C875E8A6");
 
             entity.ToTable("MenuRol");
 
@@ -144,7 +141,7 @@ public partial class DbventasContext : DbContext
 
         modelBuilder.Entity<Producto>(entity =>
         {
-            entity.HasKey(e => e.IdProducto).HasName("PK__Producto__07F4A132FE7F7EAD");
+            entity.HasKey(e => e.IdProducto).HasName("PK__Producto__07F4A13205A67F1B");
 
             entity.ToTable("Producto");
 
@@ -160,12 +157,12 @@ public partial class DbventasContext : DbContext
                 .HasColumnType("datetime")
                 .HasColumnName("fechaRegistro");
             entity.Property(e => e.Idcategoria).HasColumnName("idcategoria");
+            entity.Property(e => e.Nombre)
+                .HasMaxLength(100)
+                .HasColumnName("nombre");
             entity.Property(e => e.Precio)
                 .HasColumnType("money")
                 .HasColumnName("precio");
-            entity.Property(e => e.Producto1)
-                .HasMaxLength(100)
-                .HasColumnName("producto");
             entity.Property(e => e.Stock).HasColumnName("stock");
             entity.Property(e => e.UsuarioModificacion).HasColumnName("usuarioModificacion");
             entity.Property(e => e.UsuarioRegistro).HasColumnName("usuarioRegistro");
@@ -177,7 +174,7 @@ public partial class DbventasContext : DbContext
 
         modelBuilder.Entity<Rol>(entity =>
         {
-            entity.HasKey(e => e.IdRol).HasName("PK__Rol__3C872F7621290034");
+            entity.HasKey(e => e.IdRol).HasName("PK__Rol__3C872F76828254B6");
 
             entity.ToTable("Rol");
 
@@ -189,17 +186,17 @@ public partial class DbventasContext : DbContext
                 .HasDefaultValueSql("(getdate())")
                 .HasColumnType("datetime")
                 .HasColumnName("fechaRegistro");
-            entity.Property(e => e.Rol1)
+            entity.Property(e => e.Nombre)
                 .HasMaxLength(50)
                 .IsUnicode(false)
-                .HasColumnName("rol");
+                .HasColumnName("nombre");
             entity.Property(e => e.UsuarioModificacion).HasColumnName("usuarioModificacion");
             entity.Property(e => e.UsuarioRegistro).HasColumnName("usuarioRegistro");
         });
 
         modelBuilder.Entity<Usuario>(entity =>
         {
-            entity.HasKey(e => e.IdUsuario).HasName("PK__Usuario__645723A6C546097D");
+            entity.HasKey(e => e.IdUsuario).HasName("PK__Usuario__645723A63093BA85");
 
             entity.ToTable("Usuario");
 
@@ -234,7 +231,7 @@ public partial class DbventasContext : DbContext
 
         modelBuilder.Entity<Venta>(entity =>
         {
-            entity.HasKey(e => e.IdVenta).HasName("PK__Venta__077D56143BA01ADB");
+            entity.HasKey(e => e.IdVenta).HasName("PK__Venta__077D5614A0F93077");
 
             entity.Property(e => e.IdVenta).HasColumnName("idVenta");
             entity.Property(e => e.FechaModificacion)

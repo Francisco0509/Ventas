@@ -74,3 +74,15 @@ C:\Users\francisco.ruiz\Documents\Francisco\Own\Ventas\APISistemaVenta\SistemaVe
 C:\Users\francisco.ruiz\Documents\Francisco\Own\Ventas\APISistemaVenta\SistemaVenta.API\obj\Debug\net7.0\SistemaVenta.API.pdb
 C:\Users\francisco.ruiz\Documents\Francisco\Own\Ventas\APISistemaVenta\SistemaVenta.API\obj\Debug\net7.0\SistemaVenta.API.genruntimeconfig.cache
 C:\Users\francisco.ruiz\Documents\Francisco\Own\Ventas\APISistemaVenta\SistemaVenta.API\obj\Debug\net7.0\ref\SistemaVenta.API.dll
+C:\Users\francisco.ruiz\Documents\Francisco\Own\Ventas\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\SistemaVenta.BLL.dll
+C:\Users\francisco.ruiz\Documents\Francisco\Own\Ventas\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\SistemaVenta.DAL.dll
+C:\Users\francisco.ruiz\Documents\Francisco\Own\Ventas\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\SistemaVenta.DTO.dll
+C:\Users\francisco.ruiz\Documents\Francisco\Own\Ventas\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\SistemaVenta.IOC.dll
+C:\Users\francisco.ruiz\Documents\Francisco\Own\Ventas\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\SistemaVenta.Model.dll
+C:\Users\francisco.ruiz\Documents\Francisco\Own\Ventas\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\SistemaVenta.Utility.dll
+C:\Users\francisco.ruiz\Documents\Francisco\Own\Ventas\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\SistemaVenta.BLL.pdb
+C:\Users\francisco.ruiz\Documents\Francisco\Own\Ventas\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\SistemaVenta.DTO.pdb
+C:\Users\francisco.ruiz\Documents\Francisco\Own\Ventas\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\SistemaVenta.IOC.pdb
+C:\Users\francisco.ruiz\Documents\Francisco\Own\Ventas\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\SistemaVenta.DAL.pdb
+C:\Users\francisco.ruiz\Documents\Francisco\Own\Ventas\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\SistemaVenta.Model.pdb
+C:\Users\francisco.ruiz\Documents\Francisco\Own\Ventas\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\SistemaVenta.Utility.pdb
