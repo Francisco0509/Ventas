@@ -13,6 +13,6 @@ namespace SistemaVenta.DAL.Repositorios.Contrato
         Task<T> Create(T modelo);
         Task<bool> Update(T modelo);
         Task<bool> Delete(T modelo);
-        Task<IQueryable<T>> Query(Expression<Func<T>> filtro = null);
+        Task<IQueryable<T>> Query(Expression<Func<T, bool>> filtro = null);
     }
 }

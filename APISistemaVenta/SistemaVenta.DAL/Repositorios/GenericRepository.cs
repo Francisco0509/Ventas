@@ -60,7 +60,7 @@ namespace SistemaVenta.DAL.Repositorios
             }
         }
 
-        public async Task<IQueryable<T>> Query(Expression<Func<T>> filtro = null)
+        public async Task<IQueryable<T>> Query(Expression<Func<T, bool>> filtro = null)
         {
             try
             {
