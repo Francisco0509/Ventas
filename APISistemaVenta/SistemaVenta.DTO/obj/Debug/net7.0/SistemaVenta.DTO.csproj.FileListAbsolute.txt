@@ -12,3 +12,17 @@ C:\Users\francisco.ruiz\Documents\Francisco\Own\Ventas\APISistemaVenta\SistemaVe
 C:\Users\francisco.ruiz\Documents\Francisco\Own\Ventas\APISistemaVenta\SistemaVenta.DTO\obj\Debug\net7.0\SistemaVenta.DTO.pdb
 C:\Users\francisco.ruiz\Documents\Francisco\Own\Ventas\APISistemaVenta\SistemaVenta.DTO\obj\Debug\net7.0\SistemaVenta.DTO.genruntimeconfig.cache
 C:\Users\francisco.ruiz\Documents\Francisco\Own\Ventas\APISistemaVenta\SistemaVenta.DTO\obj\Debug\net7.0\ref\SistemaVenta.DTO.dll
+D:\VisualStudio2022\VentasAPI\Ventas\APISistemaVenta\SistemaVenta.DTO\bin\Debug\net7.0\SistemaVenta.DTO.deps.json
+D:\VisualStudio2022\VentasAPI\Ventas\APISistemaVenta\SistemaVenta.DTO\bin\Debug\net7.0\SistemaVenta.DTO.runtimeconfig.json
+D:\VisualStudio2022\VentasAPI\Ventas\APISistemaVenta\SistemaVenta.DTO\bin\Debug\net7.0\SistemaVenta.DTO.dll
+D:\VisualStudio2022\VentasAPI\Ventas\APISistemaVenta\SistemaVenta.DTO\bin\Debug\net7.0\SistemaVenta.DTO.pdb
+D:\VisualStudio2022\VentasAPI\Ventas\APISistemaVenta\SistemaVenta.DTO\obj\Debug\net7.0\SistemaVenta.DTO.csproj.AssemblyReference.cache
+D:\VisualStudio2022\VentasAPI\Ventas\APISistemaVenta\SistemaVenta.DTO\obj\Debug\net7.0\SistemaVenta.DTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualStudio2022\VentasAPI\Ventas\APISistemaVenta\SistemaVenta.DTO\obj\Debug\net7.0\SistemaVenta.DTO.AssemblyInfoInputs.cache
+D:\VisualStudio2022\VentasAPI\Ventas\APISistemaVenta\SistemaVenta.DTO\obj\Debug\net7.0\SistemaVenta.DTO.AssemblyInfo.cs
+D:\VisualStudio2022\VentasAPI\Ventas\APISistemaVenta\SistemaVenta.DTO\obj\Debug\net7.0\SistemaVenta.DTO.csproj.CoreCompileInputs.cache
+D:\VisualStudio2022\VentasAPI\Ventas\APISistemaVenta\SistemaVenta.DTO\obj\Debug\net7.0\SistemaVenta.DTO.dll
+D:\VisualStudio2022\VentasAPI\Ventas\APISistemaVenta\SistemaVenta.DTO\obj\Debug\net7.0\refint\SistemaVenta.DTO.dll
+D:\VisualStudio2022\VentasAPI\Ventas\APISistemaVenta\SistemaVenta.DTO\obj\Debug\net7.0\SistemaVenta.DTO.pdb
+D:\VisualStudio2022\VentasAPI\Ventas\APISistemaVenta\SistemaVenta.DTO\obj\Debug\net7.0\SistemaVenta.DTO.genruntimeconfig.cache
+D:\VisualStudio2022\VentasAPI\Ventas\APISistemaVenta\SistemaVenta.DTO\obj\Debug\net7.0\ref\SistemaVenta.DTO.dll

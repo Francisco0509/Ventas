@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\francisco.ruiz\\Documents\\Francisco\\Own\\Ventas\\APISistemaVenta\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj": {}
+    "D:\\VisualStudio2022\\VentasAPI\\Ventas\\APISistemaVenta\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\francisco.ruiz\\Documents\\Francisco\\Own\\Ventas\\APISistemaVenta\\SistemaVenta.BLL\\SistemaVenta.BLL.csproj": {
+    "D:\\VisualStudio2022\\VentasAPI\\Ventas\\APISistemaVenta\\SistemaVenta.BLL\\SistemaVenta.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\francisco.ruiz\\Documents\\Francisco\\Own\\Ventas\\APISistemaVenta\\SistemaVenta.BLL\\SistemaVenta.BLL.csproj",
+        "projectUniqueName": "D:\\VisualStudio2022\\VentasAPI\\Ventas\\APISistemaVenta\\SistemaVenta.BLL\\SistemaVenta.BLL.csproj",
         "projectName": "SistemaVenta.BLL",
-        "projectPath": "C:\\Users\\francisco.ruiz\\Documents\\Francisco\\Own\\Ventas\\APISistemaVenta\\SistemaVenta.BLL\\SistemaVenta.BLL.csproj",
-        "packagesPath": "C:\\Users\\francisco.ruiz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\francisco.ruiz\\Documents\\Francisco\\Own\\Ventas\\APISistemaVenta\\SistemaVenta.BLL\\obj\\",
+        "projectPath": "D:\\VisualStudio2022\\VentasAPI\\Ventas\\APISistemaVenta\\SistemaVenta.BLL\\SistemaVenta.BLL.csproj",
+        "packagesPath": "C:\\Users\\fruiz\\.nuget\\packages\\",
+        "outputPath": "D:\\VisualStudio2022\\VentasAPI\\Ventas\\APISistemaVenta\\SistemaVenta.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\francisco.ruiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\fruiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -25,26 +25,25 @@
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Users\\francisco.ruiz\\Documents\\Visual Studio 2019\\Projects\\ProdBlinds_Fco\\ProdBlinds\\bin": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://www.nuget.org": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\francisco.ruiz\\Documents\\Francisco\\Own\\Ventas\\APISistemaVenta\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj": {
-                "projectPath": "C:\\Users\\francisco.ruiz\\Documents\\Francisco\\Own\\Ventas\\APISistemaVenta\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj"
+              "D:\\VisualStudio2022\\VentasAPI\\Ventas\\APISistemaVenta\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj": {
+                "projectPath": "D:\\VisualStudio2022\\VentasAPI\\Ventas\\APISistemaVenta\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj"
               },
-              "C:\\Users\\francisco.ruiz\\Documents\\Francisco\\Own\\Ventas\\APISistemaVenta\\SistemaVenta.DTO\\SistemaVenta.DTO.csproj": {
-                "projectPath": "C:\\Users\\francisco.ruiz\\Documents\\Francisco\\Own\\Ventas\\APISistemaVenta\\SistemaVenta.DTO\\SistemaVenta.DTO.csproj"
+              "D:\\VisualStudio2022\\VentasAPI\\Ventas\\APISistemaVenta\\SistemaVenta.DTO\\SistemaVenta.DTO.csproj": {
+                "projectPath": "D:\\VisualStudio2022\\VentasAPI\\Ventas\\APISistemaVenta\\SistemaVenta.DTO\\SistemaVenta.DTO.csproj"
               },
-              "C:\\Users\\francisco.ruiz\\Documents\\Francisco\\Own\\Ventas\\APISistemaVenta\\SistemaVenta.Model\\SistemaVenta.Model.csproj": {
-                "projectPath": "C:\\Users\\francisco.ruiz\\Documents\\Francisco\\Own\\Ventas\\APISistemaVenta\\SistemaVenta.Model\\SistemaVenta.Model.csproj"
+              "D:\\VisualStudio2022\\VentasAPI\\Ventas\\APISistemaVenta\\SistemaVenta.Model\\SistemaVenta.Model.csproj": {
+                "projectPath": "D:\\VisualStudio2022\\VentasAPI\\Ventas\\APISistemaVenta\\SistemaVenta.Model\\SistemaVenta.Model.csproj"
               },
-              "C:\\Users\\francisco.ruiz\\Documents\\Francisco\\Own\\Ventas\\APISistemaVenta\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj": {
-                "projectPath": "C:\\Users\\francisco.ruiz\\Documents\\Francisco\\Own\\Ventas\\APISistemaVenta\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj"
+              "D:\\VisualStudio2022\\VentasAPI\\Ventas\\APISistemaVenta\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj": {
+                "projectPath": "D:\\VisualStudio2022\\VentasAPI\\Ventas\\APISistemaVenta\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj"
               }
             }
           }
@@ -86,24 +85,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\francisco.ruiz\\Documents\\Francisco\\Own\\Ventas\\APISistemaVenta\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj": {
+    "D:\\VisualStudio2022\\VentasAPI\\Ventas\\APISistemaVenta\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\francisco.ruiz\\Documents\\Francisco\\Own\\Ventas\\APISistemaVenta\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj",
+        "projectUniqueName": "D:\\VisualStudio2022\\VentasAPI\\Ventas\\APISistemaVenta\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj",
         "projectName": "SistemaVenta.DAL",
-        "projectPath": "C:\\Users\\francisco.ruiz\\Documents\\Francisco\\Own\\Ventas\\APISistemaVenta\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj",
-        "packagesPath": "C:\\Users\\francisco.ruiz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\francisco.ruiz\\Documents\\Francisco\\Own\\Ventas\\APISistemaVenta\\SistemaVenta.DAL\\obj\\",
+        "projectPath": "D:\\VisualStudio2022\\VentasAPI\\Ventas\\APISistemaVenta\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj",
+        "packagesPath": "C:\\Users\\fruiz\\.nuget\\packages\\",
+        "outputPath": "D:\\VisualStudio2022\\VentasAPI\\Ventas\\APISistemaVenta\\SistemaVenta.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\francisco.ruiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\fruiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -111,17 +110,16 @@
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Users\\francisco.ruiz\\Documents\\Visual Studio 2019\\Projects\\ProdBlinds_Fco\\ProdBlinds\\bin": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://www.nuget.org": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\francisco.ruiz\\Documents\\Francisco\\Own\\Ventas\\APISistemaVenta\\SistemaVenta.Model\\SistemaVenta.Model.csproj": {
-                "projectPath": "C:\\Users\\francisco.ruiz\\Documents\\Francisco\\Own\\Ventas\\APISistemaVenta\\SistemaVenta.Model\\SistemaVenta.Model.csproj"
+              "D:\\VisualStudio2022\\VentasAPI\\Ventas\\APISistemaVenta\\SistemaVenta.Model\\SistemaVenta.Model.csproj": {
+                "projectPath": "D:\\VisualStudio2022\\VentasAPI\\Ventas\\APISistemaVenta\\SistemaVenta.Model\\SistemaVenta.Model.csproj"
               }
             }
           }
@@ -163,24 +161,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\francisco.ruiz\\Documents\\Francisco\\Own\\Ventas\\APISistemaVenta\\SistemaVenta.DTO\\SistemaVenta.DTO.csproj": {
+    "D:\\VisualStudio2022\\VentasAPI\\Ventas\\APISistemaVenta\\SistemaVenta.DTO\\SistemaVenta.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\francisco.ruiz\\Documents\\Francisco\\Own\\Ventas\\APISistemaVenta\\SistemaVenta.DTO\\SistemaVenta.DTO.csproj",
+        "projectUniqueName": "D:\\VisualStudio2022\\VentasAPI\\Ventas\\APISistemaVenta\\SistemaVenta.DTO\\SistemaVenta.DTO.csproj",
         "projectName": "SistemaVenta.DTO",
-        "projectPath": "C:\\Users\\francisco.ruiz\\Documents\\Francisco\\Own\\Ventas\\APISistemaVenta\\SistemaVenta.DTO\\SistemaVenta.DTO.csproj",
-        "packagesPath": "C:\\Users\\francisco.ruiz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\francisco.ruiz\\Documents\\Francisco\\Own\\Ventas\\APISistemaVenta\\SistemaVenta.DTO\\obj\\",
+        "projectPath": "D:\\VisualStudio2022\\VentasAPI\\Ventas\\APISistemaVenta\\SistemaVenta.DTO\\SistemaVenta.DTO.csproj",
+        "packagesPath": "C:\\Users\\fruiz\\.nuget\\packages\\",
+        "outputPath": "D:\\VisualStudio2022\\VentasAPI\\Ventas\\APISistemaVenta\\SistemaVenta.DTO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\francisco.ruiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\fruiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -188,10 +186,9 @@
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Users\\francisco.ruiz\\Documents\\Visual Studio 2019\\Projects\\ProdBlinds_Fco\\ProdBlinds\\bin": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://www.nuget.org": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
@@ -236,24 +233,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\francisco.ruiz\\Documents\\Francisco\\Own\\Ventas\\APISistemaVenta\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj": {
+    "D:\\VisualStudio2022\\VentasAPI\\Ventas\\APISistemaVenta\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\francisco.ruiz\\Documents\\Francisco\\Own\\Ventas\\APISistemaVenta\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj",
+        "projectUniqueName": "D:\\VisualStudio2022\\VentasAPI\\Ventas\\APISistemaVenta\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj",
         "projectName": "SistemaVenta.IOC",
-        "projectPath": "C:\\Users\\francisco.ruiz\\Documents\\Francisco\\Own\\Ventas\\APISistemaVenta\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj",
-        "packagesPath": "C:\\Users\\francisco.ruiz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\francisco.ruiz\\Documents\\Francisco\\Own\\Ventas\\APISistemaVenta\\SistemaVenta.IOC\\obj\\",
+        "projectPath": "D:\\VisualStudio2022\\VentasAPI\\Ventas\\APISistemaVenta\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj",
+        "packagesPath": "C:\\Users\\fruiz\\.nuget\\packages\\",
+        "outputPath": "D:\\VisualStudio2022\\VentasAPI\\Ventas\\APISistemaVenta\\SistemaVenta.IOC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\francisco.ruiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\fruiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -261,23 +258,22 @@
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Users\\francisco.ruiz\\Documents\\Visual Studio 2019\\Projects\\ProdBlinds_Fco\\ProdBlinds\\bin": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://www.nuget.org": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\francisco.ruiz\\Documents\\Francisco\\Own\\Ventas\\APISistemaVenta\\SistemaVenta.BLL\\SistemaVenta.BLL.csproj": {
-                "projectPath": "C:\\Users\\francisco.ruiz\\Documents\\Francisco\\Own\\Ventas\\APISistemaVenta\\SistemaVenta.BLL\\SistemaVenta.BLL.csproj"
+              "D:\\VisualStudio2022\\VentasAPI\\Ventas\\APISistemaVenta\\SistemaVenta.BLL\\SistemaVenta.BLL.csproj": {
+                "projectPath": "D:\\VisualStudio2022\\VentasAPI\\Ventas\\APISistemaVenta\\SistemaVenta.BLL\\SistemaVenta.BLL.csproj"
               },
-              "C:\\Users\\francisco.ruiz\\Documents\\Francisco\\Own\\Ventas\\APISistemaVenta\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj": {
-                "projectPath": "C:\\Users\\francisco.ruiz\\Documents\\Francisco\\Own\\Ventas\\APISistemaVenta\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj"
+              "D:\\VisualStudio2022\\VentasAPI\\Ventas\\APISistemaVenta\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj": {
+                "projectPath": "D:\\VisualStudio2022\\VentasAPI\\Ventas\\APISistemaVenta\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj"
               },
-              "C:\\Users\\francisco.ruiz\\Documents\\Francisco\\Own\\Ventas\\APISistemaVenta\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj": {
-                "projectPath": "C:\\Users\\francisco.ruiz\\Documents\\Francisco\\Own\\Ventas\\APISistemaVenta\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj"
+              "D:\\VisualStudio2022\\VentasAPI\\Ventas\\APISistemaVenta\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj": {
+                "projectPath": "D:\\VisualStudio2022\\VentasAPI\\Ventas\\APISistemaVenta\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj"
               }
             }
           }
@@ -319,24 +315,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\francisco.ruiz\\Documents\\Francisco\\Own\\Ventas\\APISistemaVenta\\SistemaVenta.Model\\SistemaVenta.Model.csproj": {
+    "D:\\VisualStudio2022\\VentasAPI\\Ventas\\APISistemaVenta\\SistemaVenta.Model\\SistemaVenta.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\francisco.ruiz\\Documents\\Francisco\\Own\\Ventas\\APISistemaVenta\\SistemaVenta.Model\\SistemaVenta.Model.csproj",
+        "projectUniqueName": "D:\\VisualStudio2022\\VentasAPI\\Ventas\\APISistemaVenta\\SistemaVenta.Model\\SistemaVenta.Model.csproj",
         "projectName": "SistemaVenta.Model",
-        "projectPath": "C:\\Users\\francisco.ruiz\\Documents\\Francisco\\Own\\Ventas\\APISistemaVenta\\SistemaVenta.Model\\SistemaVenta.Model.csproj",
-        "packagesPath": "C:\\Users\\francisco.ruiz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\francisco.ruiz\\Documents\\Francisco\\Own\\Ventas\\APISistemaVenta\\SistemaVenta.Model\\obj\\",
+        "projectPath": "D:\\VisualStudio2022\\VentasAPI\\Ventas\\APISistemaVenta\\SistemaVenta.Model\\SistemaVenta.Model.csproj",
+        "packagesPath": "C:\\Users\\fruiz\\.nuget\\packages\\",
+        "outputPath": "D:\\VisualStudio2022\\VentasAPI\\Ventas\\APISistemaVenta\\SistemaVenta.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\francisco.ruiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\fruiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -344,10 +340,9 @@
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Users\\francisco.ruiz\\Documents\\Visual Studio 2019\\Projects\\ProdBlinds_Fco\\ProdBlinds\\bin": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://www.nuget.org": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
@@ -392,24 +387,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\francisco.ruiz\\Documents\\Francisco\\Own\\Ventas\\APISistemaVenta\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj": {
+    "D:\\VisualStudio2022\\VentasAPI\\Ventas\\APISistemaVenta\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\francisco.ruiz\\Documents\\Francisco\\Own\\Ventas\\APISistemaVenta\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj",
+        "projectUniqueName": "D:\\VisualStudio2022\\VentasAPI\\Ventas\\APISistemaVenta\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj",
         "projectName": "SistemaVenta.Utility",
-        "projectPath": "C:\\Users\\francisco.ruiz\\Documents\\Francisco\\Own\\Ventas\\APISistemaVenta\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj",
-        "packagesPath": "C:\\Users\\francisco.ruiz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\francisco.ruiz\\Documents\\Francisco\\Own\\Ventas\\APISistemaVenta\\SistemaVenta.Utility\\obj\\",
+        "projectPath": "D:\\VisualStudio2022\\VentasAPI\\Ventas\\APISistemaVenta\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj",
+        "packagesPath": "C:\\Users\\fruiz\\.nuget\\packages\\",
+        "outputPath": "D:\\VisualStudio2022\\VentasAPI\\Ventas\\APISistemaVenta\\SistemaVenta.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\francisco.ruiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\fruiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -417,20 +412,19 @@
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Users\\francisco.ruiz\\Documents\\Visual Studio 2019\\Projects\\ProdBlinds_Fco\\ProdBlinds\\bin": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://www.nuget.org": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\francisco.ruiz\\Documents\\Francisco\\Own\\Ventas\\APISistemaVenta\\SistemaVenta.DTO\\SistemaVenta.DTO.csproj": {
-                "projectPath": "C:\\Users\\francisco.ruiz\\Documents\\Francisco\\Own\\Ventas\\APISistemaVenta\\SistemaVenta.DTO\\SistemaVenta.DTO.csproj"
+              "D:\\VisualStudio2022\\VentasAPI\\Ventas\\APISistemaVenta\\SistemaVenta.DTO\\SistemaVenta.DTO.csproj": {
+                "projectPath": "D:\\VisualStudio2022\\VentasAPI\\Ventas\\APISistemaVenta\\SistemaVenta.DTO\\SistemaVenta.DTO.csproj"
               },
-              "C:\\Users\\francisco.ruiz\\Documents\\Francisco\\Own\\Ventas\\APISistemaVenta\\SistemaVenta.Model\\SistemaVenta.Model.csproj": {
-                "projectPath": "C:\\Users\\francisco.ruiz\\Documents\\Francisco\\Own\\Ventas\\APISistemaVenta\\SistemaVenta.Model\\SistemaVenta.Model.csproj"
+              "D:\\VisualStudio2022\\VentasAPI\\Ventas\\APISistemaVenta\\SistemaVenta.Model\\SistemaVenta.Model.csproj": {
+                "projectPath": "D:\\VisualStudio2022\\VentasAPI\\Ventas\\APISistemaVenta\\SistemaVenta.Model\\SistemaVenta.Model.csproj"
               }
             }
           }
@@ -480,7 +474,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

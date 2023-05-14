@@ -3461,23 +3461,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\francisco.ruiz\\.nuget\\packages\\": {},
+    "C:\\Users\\fruiz\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\francisco.ruiz\\Documents\\Francisco\\Own\\Ventas\\APISistemaVenta\\SistemaVenta.Model\\SistemaVenta.Model.csproj",
+      "projectUniqueName": "D:\\VisualStudio2022\\VentasAPI\\Ventas\\APISistemaVenta\\SistemaVenta.Model\\SistemaVenta.Model.csproj",
       "projectName": "SistemaVenta.Model",
-      "projectPath": "C:\\Users\\francisco.ruiz\\Documents\\Francisco\\Own\\Ventas\\APISistemaVenta\\SistemaVenta.Model\\SistemaVenta.Model.csproj",
-      "packagesPath": "C:\\Users\\francisco.ruiz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\francisco.ruiz\\Documents\\Francisco\\Own\\Ventas\\APISistemaVenta\\SistemaVenta.Model\\obj\\",
+      "projectPath": "D:\\VisualStudio2022\\VentasAPI\\Ventas\\APISistemaVenta\\SistemaVenta.Model\\SistemaVenta.Model.csproj",
+      "packagesPath": "C:\\Users\\fruiz\\.nuget\\packages\\",
+      "outputPath": "D:\\VisualStudio2022\\VentasAPI\\Ventas\\APISistemaVenta\\SistemaVenta.Model\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\francisco.ruiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\fruiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3485,10 +3485,9 @@
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "C:\\Users\\francisco.ruiz\\Documents\\Visual Studio 2019\\Projects\\ProdBlinds_Fco\\ProdBlinds\\bin": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://www.nuget.org": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
@@ -3533,7 +3532,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
