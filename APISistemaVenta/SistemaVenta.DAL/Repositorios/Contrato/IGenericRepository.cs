@@ -9,10 +9,10 @@ namespace SistemaVenta.DAL.Repositorios.Contrato
 {
     public interface IGenericRepository<T> where T : class
     {
-        Task<T> Get(Expression<Func<T, bool>> filtro);
-        Task<T> Create(T modelo);
-        Task<bool> Update(T modelo);
-        Task<bool> Delete(T modelo);
-        Task<IQueryable<T>> Query(Expression<Func<T, bool>> filtro = null);
+        Task<T> Obtener(Expression<Func<T, bool>> filtro);
+        Task<T> Crear(T modelo);
+        Task<bool> Editar(T modelo);
+        Task<bool> Eliminar(T modelo);
+        Task<IQueryable<T>> Consultar(Expression<Func<T, bool>> filtro = null);
     }
 }

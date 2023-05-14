@@ -19,7 +19,7 @@ namespace SistemaVenta.DAL.Repositorios
             _dbContext = dbContext;
         }
 
-        public async Task<T> Create(T modelo)
+        public async Task<T> Crear(T modelo)
         {
             try
             {
@@ -33,7 +33,7 @@ namespace SistemaVenta.DAL.Repositorios
             }
         }
 
-        public async Task<bool> Delete(T modelo)
+        public async Task<bool> Eliminar(T modelo)
         {
             try
             {
@@ -47,11 +47,11 @@ namespace SistemaVenta.DAL.Repositorios
             }
         }
 
-        public async Task<T> Get(Expression<Func<T, bool>> filtro)
+        public async Task<T> Obtener(Expression<Func<T, bool>> filtro)
         {
             try
             {
-                T modelo = await _dbContext.Set<T>().FirstOrDefaultAsync(filtro);
+                T modelo = await _dbContext.Set<T>().FirstOrDefaultAsync();
                 return modelo;
             }
             catch (Exception ex)
@@ -60,7 +60,7 @@ namespace SistemaVenta.DAL.Repositorios
             }
         }
 
-        public async Task<IQueryable<T>> Query(Expression<Func<T, bool>> filtro = null)
+        public async Task<IQueryable<T>> Consultar(Expression<Func<T, bool>> filtro = null)
         {
             try
             {
@@ -73,7 +73,7 @@ namespace SistemaVenta.DAL.Repositorios
             }
         }
 
-        public async Task<bool> Update(T modelo)
+        public async Task<bool> Editar(T modelo)
         {
             try
             {
@@ -86,5 +86,6 @@ namespace SistemaVenta.DAL.Repositorios
                 throw;
             }
         }
+
     }
 }

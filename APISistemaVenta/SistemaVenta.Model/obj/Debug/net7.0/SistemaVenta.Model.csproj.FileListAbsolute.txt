@@ -12,3 +12,17 @@ C:\Users\francisco.ruiz\Documents\Francisco\Own\Ventas\APISistemaVenta\SistemaVe
 C:\Users\francisco.ruiz\Documents\Francisco\Own\Ventas\APISistemaVenta\SistemaVenta.Model\obj\Debug\net7.0\SistemaVenta.Model.pdb
 C:\Users\francisco.ruiz\Documents\Francisco\Own\Ventas\APISistemaVenta\SistemaVenta.Model\obj\Debug\net7.0\SistemaVenta.Model.genruntimeconfig.cache
 C:\Users\francisco.ruiz\Documents\Francisco\Own\Ventas\APISistemaVenta\SistemaVenta.Model\obj\Debug\net7.0\ref\SistemaVenta.Model.dll
+D:\VisualStudio2022\VentasAPI\Ventas\APISistemaVenta\SistemaVenta.Model\bin\Debug\net7.0\SistemaVenta.Model.deps.json
+D:\VisualStudio2022\VentasAPI\Ventas\APISistemaVenta\SistemaVenta.Model\bin\Debug\net7.0\SistemaVenta.Model.runtimeconfig.json
+D:\VisualStudio2022\VentasAPI\Ventas\APISistemaVenta\SistemaVenta.Model\bin\Debug\net7.0\SistemaVenta.Model.dll
+D:\VisualStudio2022\VentasAPI\Ventas\APISistemaVenta\SistemaVenta.Model\bin\Debug\net7.0\SistemaVenta.Model.pdb
+D:\VisualStudio2022\VentasAPI\Ventas\APISistemaVenta\SistemaVenta.Model\obj\Debug\net7.0\SistemaVenta.Model.csproj.AssemblyReference.cache
+D:\VisualStudio2022\VentasAPI\Ventas\APISistemaVenta\SistemaVenta.Model\obj\Debug\net7.0\SistemaVenta.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualStudio2022\VentasAPI\Ventas\APISistemaVenta\SistemaVenta.Model\obj\Debug\net7.0\SistemaVenta.Model.AssemblyInfoInputs.cache
+D:\VisualStudio2022\VentasAPI\Ventas\APISistemaVenta\SistemaVenta.Model\obj\Debug\net7.0\SistemaVenta.Model.AssemblyInfo.cs
+D:\VisualStudio2022\VentasAPI\Ventas\APISistemaVenta\SistemaVenta.Model\obj\Debug\net7.0\SistemaVenta.Model.csproj.CoreCompileInputs.cache
+D:\VisualStudio2022\VentasAPI\Ventas\APISistemaVenta\SistemaVenta.Model\obj\Debug\net7.0\SistemaVenta.Model.dll
+D:\VisualStudio2022\VentasAPI\Ventas\APISistemaVenta\SistemaVenta.Model\obj\Debug\net7.0\refint\SistemaVenta.Model.dll
+D:\VisualStudio2022\VentasAPI\Ventas\APISistemaVenta\SistemaVenta.Model\obj\Debug\net7.0\SistemaVenta.Model.pdb
+D:\VisualStudio2022\VentasAPI\Ventas\APISistemaVenta\SistemaVenta.Model\obj\Debug\net7.0\SistemaVenta.Model.genruntimeconfig.cache
+D:\VisualStudio2022\VentasAPI\Ventas\APISistemaVenta\SistemaVenta.Model\obj\Debug\net7.0\ref\SistemaVenta.Model.dll
